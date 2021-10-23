@@ -353,3 +353,11 @@ PlainTestString=cipherTest
 MutationType=cipher
 MutatedString=0756e622ced866ccb326bad8a4aa9288
 info: Oct-23-2021 14:32:56: 	DB Insert Success: 61745558ddc894ae27a54089
+info: Oct-23-2021 14:39:54: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:39:54: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:39:55: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:39:55: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:41:24: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:41:25: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:41:25: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:41:25: 	Connected to collection decentLabs.stringMutations

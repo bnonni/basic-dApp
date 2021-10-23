@@ -106,4 +106,10 @@ const broadcastString = async (stringData, mutationType) => {
     }
 };
 
-module.exports = { broadcastString };
+const mutations = async () => {
+    const mutationsInDB = await stringMutations.find();
+    debug.info(mutationsInDB);
+    return mutationsInDB
+}
+
+module.exports = { broadcastString, mutations };
