@@ -14,11 +14,11 @@
 }
 
 .Container {
-  display: flex;
+    display: flex;
     margin: 0 auto;
     width: 50%;
     justify-content: center;
-    margin-top: 5em;
+    margin-top: 7em;
 }
 
 .List {
@@ -37,6 +37,15 @@
 h2 {
   margin-top: 1em;
   text-decoration: underline;
+}
+
+.Error{
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  position: fixed;
+  left: 50em;
+  top: 2em;
 }
 
 @keyframes App-logo-spin {

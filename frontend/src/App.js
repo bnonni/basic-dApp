@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import './index.css';
 
@@ -6,6 +6,13 @@ function App() {
     const [mutatedStrings, setMutatedStrings] = useState([]);
     const [stringData, setStringData] = useState();
     const [mutationType, setMutationType] = useState();
+    const [error, setError] = useState();
+
+    useEffect(() =>{
+        setTimeout(() => {
+            setError('');
+        }, 5000);
+    })
 
     const submit = async () => {
         setStringData('');
@@ -26,10 +33,13 @@ function App() {
             }
         );
         const submitResponse = await response.json();
-        setMutatedStrings((previous) => {
-            return [submitResponse.mutatedString, ...previous];
-        });
-        console.log(submitResponse);
+        if (submitResponse.success) {
+            setMutatedStrings((previous) => {
+                return [submitResponse.mutatedString, ...previous];
+            });
+        } else {
+            setError(submitResponse.error);
+        }
     };
 
     const DisplayStrings = () => {
@@ -51,20 +61,21 @@ function App() {
                     Accept: 'application/json',
                 },
                 credentials: 'include',
-                redirect: 'follow'
+                redirect: 'follow',
             }
         );
         const stringMutations = await response.json();
-        const dbMutations = []
-        stringMutations.mutations.forEach(element => {
-            dbMutations.push(element.mutatedString)
+        const dbMutations = [];
+        stringMutations.mutations.forEach((element) => {
+            dbMutations.push(element.mutatedString);
         });
         setMutatedStrings(dbMutations.reverse());
-    }
+    };
 
     return (
         <div>
             <div>
+                <div className="Error">{error}</div>
                 <div className="Container">
                     &nbsp;&nbsp;
                     <input
@@ -83,7 +94,7 @@ function App() {
                         placeholder="rot13, sha256, cipher"
                     ></input>
                     &nbsp;&nbsp;
-                    <button type="reset" onClick={submit} type="button">
+                    <button onClick={submit} type="button">
                         Send String to Chain!
                     </button>
                 </div>
@@ -95,9 +106,7 @@ function App() {
                 <h2>Mutated Strings</h2>
                 {mutatedStrings.length > 0 && <DisplayStrings />}
             </div>
-            <div className="List">
-               
-            </div>
+            <div className="List"></div>
         </div>
     );
 }
