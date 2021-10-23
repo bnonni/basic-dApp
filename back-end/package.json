@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.17.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "@ethereumjs/tx": "^3.3.2",
+    "@hogashi/rot13": "^1.0.2",
+    "@openzeppelin/contracts": "^4.3.2",
+    "@remix-project/remixd": "^0.5.2",
+    "current-line": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.14",
+    "web3": "^1.6.0"
+  }
+}
