@@ -24,10 +24,10 @@ This application uses the following 3rd party services:
   - The RPC url will be included in the `.env` file.
 
 ## Install
-1. Clone repo from https://github.com/bnonni/basic-dApp.git
+1. Clone repo from https://github.com/bnonni/basic-dApp.git and run `cd basic-dApp`
 2. Open 2 separate terminal windows
-3. In the first, run this command `cd basic-dApp/frontend && yarn && yarn start`
-4. In the second, run this command `cd ../backend && yarn && yarn start`
+3. In the first, run this command `cd frontend && yarn && yarn start`
+4. In the second, run this command `cd backend && yarn && yarn start`
 5. You should see output for both in your terminals
 6. The frontend is running on `http://localhost:3000/`
 7. The backend API is running on `http://localhost:4000/`
