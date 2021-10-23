@@ -6,7 +6,7 @@ const broadcaster = async (req, res) => {
     const stringData = req.body.stringData
     const mutationType = req.body.mutationType.toLowerCase();
     const response = await broadcastService.broadcastString(stringData, mutationType);
-    debug.info(`Response: ${JSON.stringify(response)}`);
+    debug.info(`Broadcaster Response: ${JSON.stringify(response)}`);
     if (!response.success) {
       res.status(500).json(response);
     } else {
@@ -21,7 +21,7 @@ const broadcaster = async (req, res) => {
 const mutations = async (req, res) => {
   try {
     const response = await broadcastService.mutations();
-    debug.info(`Response: ${JSON.stringify(response)}`);
+    debug.info(`Mutations Response: ${JSON.stringify(response)}`);
     if (!response.success) {
       res.status(500).json(response);
     } else {

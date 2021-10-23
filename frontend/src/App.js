@@ -25,11 +25,11 @@ function App() {
                 body: JSON.stringify(body),
             }
         );
-        const data = await response.json();
+        const submitResponse = await response.json();
         setMutatedStrings((previous) => {
-            return [...previous, data.mutatedString];
+            return [submitResponse.mutatedString, ...previous];
         });
-        console.log(data);
+        console.log(submitResponse);
     };
 
     const DisplayStrings = () => {
@@ -40,12 +40,34 @@ function App() {
         ));
     };
 
+    const getStrings = async () => {
+        const response = await fetch(
+            'http://localhost:4000/api/v1/broadcast/mutations',
+            {
+                method: 'GET',
+                mode: 'cors',
+                headers: {
+                    'Content-Type': 'application/json',
+                    Accept: 'application/json',
+                },
+                credentials: 'include',
+                redirect: 'follow'
+            }
+        );
+        const stringMutations = await response.json();
+        const dbMutations = []
+        stringMutations.mutations.forEach(element => {
+            dbMutations.push(element.mutatedString)
+        });
+        setMutatedStrings(dbMutations.reverse());
+    }
+
     return (
         <div>
             <div>
                 <div className="Container">
                     &nbsp;&nbsp;
-                    <input 
+                    <input
                         value={stringData}
                         onChange={(e) => setStringData(e.target.value)}
                         type="text"
@@ -66,7 +88,16 @@ function App() {
                     </button>
                 </div>
             </div>
-            <div className="List"><h2>Mutated Strings</h2>{mutatedStrings.length > 0 && <DisplayStrings />}</div>
+            <div className="Button">
+                <button onClick={getStrings} type="button">
+                    Get Mutated Strings!
+                </button>
+                <h2>Mutated Strings</h2>
+                {mutatedStrings.length > 0 && <DisplayStrings />}
+            </div>
+            <div className="List">
+               
+            </div>
         </div>
     );
 }

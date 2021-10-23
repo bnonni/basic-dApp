@@ -12,7 +12,9 @@ const STRING_DATA_CONTRACT = new web3Eth.Contract(
     STRING_DATA_CONTRACT_ADDRESS
 );
 
-const stringify = (data) => { return JSON.stringify(data); };
+const stringify = (data) => {
+    return JSON.stringify(data);
+};
 const debug = require('../../utils/debug');
 
 const broadcastString = async (stringData, mutationType) => {
@@ -55,46 +57,53 @@ const broadcastString = async (stringData, mutationType) => {
         web3Eth.sendSignedTransaction(readyTX);
 
         try {
-            return await new Promise((resolve) => { 
-            STRING_DATA_CONTRACT.events
-                .Broadcast()
-                .on('data', async (event) => {
-                    const response = {
-                        stringData: event.returnValues.stringData,
-                        mutationType: event.returnValues.mutationType,
-                    };
-                    const stringData = response.stringData;
-                    let mutatedString;
-                    if(mutationType === 'rot13') mutatedString = await rot13(stringData);
-                    else if(mutationType === 'sha256') mutatedString = await sha256(stringData);
-                    else mutatedString = await cipher(stringData)
-                    
+            return await new Promise((resolve) => {
+                STRING_DATA_CONTRACT.events
+                    .Broadcast()
+                    .on('data', async (event) => {
+                        const response = {
+                            stringData: event.returnValues.stringData,
+                            mutationType: event.returnValues.mutationType,
+                        };
+                        const stringData = response.stringData;
+                        let mutatedString;
+                        if (mutationType === 'rot13')
+                            mutatedString = await rot13(stringData);
+                        else if (mutationType === 'sha256')
+                            mutatedString = await sha256(stringData);
+                        else mutatedString = await cipher(stringData);
 
-                    let m1 = `PlainTestString=${response.stringData}\n`,
-                        m2 = `MutationType=${response.mutationType}\n`,
-                        m3 = `MutatedString=${mutatedString}`;
-                    debug.info(`Broadcast Event:\n${m1}${m2}${m3}`);
-                    const dbTxn = await stringMutations.insertOne({
-                        plainTextString: response.stringData,
-                        mutationType: response.mutationType,
-                        mutatedString: mutatedString,
+                        let m1 = `PlainTestString=${response.stringData}\n`,
+                            m2 = `MutationType=${response.mutationType}\n`,
+                            m3 = `MutatedString=${mutatedString}`;
+                        debug.info(`Broadcast Event:\n${m1}${m2}${m3}`);
+                        const dbTxn = await stringMutations.insertOne({
+                            plainTextString: response.stringData,
+                            mutationType: response.mutationType,
+                            mutatedString: mutatedString,
+                        });
+                        if (dbTxn.acknowledged) {
+                            debug.info(
+                                `DB Insert Success: ${dbTxn.insertedId}`
+                            );
+                        } else {
+                            debug.info(`DB Insert Fail: ${dbTxn}`);
+                        }
+                        resolve({ success: true, mutatedString });
+                    })
+                    .on('error', (error, receipt) => {
+                        const fileInfo = `${filename}:${line.get().line}`;
+                        debug.error(`${fileInfo} - ${error.message}`);
+                        debug.error(
+                            `Broadcast Event Error: ${stringify(error)}`
+                        );
+                        debug.error(
+                            `Broadcast Event Error Receipt: ${stringify(
+                                receipt
+                            )}`
+                        );
+                        resolve({ success: false, error: error.message });
                     });
-                    if (dbTxn.acknowledged) {
-                        debug.info(`DB Insert Success: ${dbTxn.insertedId}`);
-                    } else {
-                        debug.info(`DB Insert Fail: ${dbTxn}`);
-                    }
-                    resolve({ success: true, mutatedString }); 
-                })
-                .on('error', (error, receipt) => {
-                    const fileInfo = `${filename}:${line.get().line}`;
-                    debug.error(`${fileInfo} - ${error.message}`);
-                    debug.error(`Broadcast Event Error: ${stringify(error)}`);
-                    debug.error(
-                        `Broadcast Event Error Receipt: ${stringify(receipt)}`
-                    );
-                    resolve({ success: false, error: error.message });
-                });
             });
         } catch (error) {
             debug.error(error.stack);
@@ -107,9 +116,21 @@ const broadcastString = async (stringData, mutationType) => {
 };
 
 const mutations = async () => {
-    const mutationsInDB = await stringMutations.find();
-    debug.info(mutationsInDB);
-    return mutationsInDB
-}
+    try {
+        const cursor = await stringMutations.find({});
+        const mutations = [];
+        await cursor.forEach((element) => {
+            mutations.push({
+                plainTextString: element.plainTextString,
+                mutationType: element.mutationType,
+                mutatedString: element.mutatedString,
+            });
+        });
+        return { success: true, mutations };
+    } catch (error) {
+        debug.error(error.stack);
+        throw new Error(error);
+    }
+};
 
 module.exports = { broadcastString, mutations };
