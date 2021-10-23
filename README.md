@@ -2,7 +2,7 @@
 # Basic dApp
 
 ## Purpose
-This decentralized application (dApp) uses a react frontend form to submit a plain text string and a mutation schema (supported rot13, aes-256, sha256) to the backend node/express server. Upon 
+This decentralized application (dApp) uses a react frontend form to submit a plain text string and a mutation schema (supported rot13, aes-256, sha256) to the backend node/express server. On submit, the frontend makes an API call to the backend passing the string and the mutation. The backend uses web3.js to executes a txn on a smart contract on the rinkeby blockchain. The smart contract simply takes in the string and schema, and emits a Broadcast event including both pieces of data. The API backend is listening for the Broadcast event, and on receiving it, the backend mutates the string based on the supplied schema and inserts it to the database.
 
 ## Know Before You Go
 Technology needed to run this app:
