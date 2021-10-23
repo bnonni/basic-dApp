@@ -8,11 +8,11 @@ function App() {
     const [mutationType, setMutationType] = useState();
     const [error, setError] = useState();
 
-    useEffect(() =>{
+    useEffect(() => {
         setTimeout(() => {
             setError('');
         }, 5000);
-    })
+    });
 
     const submit = async () => {
         setStringData('');
@@ -66,10 +66,14 @@ function App() {
         );
         const stringMutations = await response.json();
         const dbMutations = [];
-        stringMutations.mutations.forEach((element) => {
-            dbMutations.push(element.mutatedString);
-        });
-        setMutatedStrings(dbMutations.reverse());
+        if (stringMutations.success) {
+            stringMutations.mutations.forEach((element) => {
+                dbMutations.push(element.mutatedString);
+            });
+            setMutatedStrings(dbMutations.reverse());
+        } else {
+            setError(submitResponse.error);
+        }
     };
 
     return (
