@@ -1,0 +1,355 @@
+info: Oct-23-2021 14:07:35: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:07:58: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:07:58: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:08:14: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:08:14: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:08:24: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:08:24: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:08:24: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:08:45: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:08:46: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:08:46: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:08:52: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:08:52: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:08:52: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:08:52: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:09:16: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:09:17: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:09:17: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:09:17: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:09:21: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:09:21: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:09:22: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:09:22: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:09:27: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:09:27: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:09:27: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:09:27: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:09:32: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:09:32: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:09:33: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:09:33: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:10:24: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:10:24: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:10:25: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:10:25: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:10:27: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:10:28: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:10:28: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:10:28: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:10:38: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:10:38: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:10:39: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:10:39: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:10:42: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:10:42: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:10:42: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:10:42: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:11:02: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:11:02: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:11:03: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:11:03: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:11:08: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:11:08: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:11:08: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:11:08: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:11:45: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:11:45: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:11:45: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:11:45: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:11:51: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:11:51: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:11:52: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:11:52: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:12:04: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:12:04: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:12:04: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:12:04: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:18:38: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:18:38: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:18:38: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:18:38: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:19:13: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:19:14: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:19:14: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:19:14: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:19:26: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:19:26: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:19:26: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:19:26: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:19:47: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:19:47: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:19:48: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:19:48: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:19:53: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:19:54: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:19:54: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:19:54: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:19:58: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:19:59: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:19:59: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:19:59: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:20:04: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:20:05: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:20:05: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:20:05: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:20:22: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:20:23: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:20:23: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:20:23: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:21:30: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:21:30: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:21:31: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:21:31: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:21:32: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:21:32: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:21:33: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:21:33: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:21:40: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:21:40: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:21:40: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:21:40: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:21:43: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:21:43: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:21:43: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:21:43: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:22:07: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:22:07: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:22:08: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:22:08: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:22:10: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:22:10: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:22:10: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:22:10: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:23:19: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:23:19: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:23:20: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:23:20: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:23:50: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:23:50: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:23:50: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:23:50: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:23:52: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:23:52: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:23:53: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:23:53: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:24:00: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:24:00: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:24:00: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:24:00: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:24:13: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:24:13: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:24:14: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:24:14: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:24:24: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:24:24: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:24:25: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:24:25: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:24:27: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:24:27: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:24:28: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:24:28: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:24:39: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:24:39: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:24:40: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:24:40: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:25:01: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:25:01: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:25:01: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:25:01: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:25:07: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:25:08: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:25:08: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:25:08: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:25:23: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:25:23: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:25:24: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:25:24: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:25:25: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:25:25: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:25:26: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:25:26: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:25:33: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:25:33: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:25:34: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:25:34: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:25:36: 	API Server listening on http://127.0.0.1:4000
+info: Oct-23-2021 14:25:36: 	Connected to Mongo Atlas DB decentLabs
+info: Oct-23-2021 14:25:37: 	Connected to RPC wss://rinkeby.infura.io/ws/v3/f247c629db72488592355aeb72cd9cfb
+info: Oct-23-2021 14:25:37: 	Connected to collection decentLabs.stringMutations
+info: Oct-23-2021 14:27:33: 	Raw Transaction: 
+{"nonce":"0xb","gasPrice":"0x45d964b800","gasLimit":"0x655d","to":"0x4031a0326b7AF0dA2c47B042971685E48d0f1DD5","value":"0x0","data":"0x02ef721c00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000000870726f64546573740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005726f743133000000000000000000000000000000000000000000000000000000"}
+-------------------
+info: Oct-23-2021 14:27:33: 	Broadcast prodTest: 0xf901290b8545d964b80082655d944031a0326b7af0da2c47b042971685e48d0f1dd580b8c402ef721c00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000000870726f64546573740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005726f7431330000000000000000000000000000000000000000000000000000002ba037def6ad9c3e02d60012d5d477b56cdb2b98804a89b8f223500d1d45ca3cbdf5a0754c7921f4fd9690013c467dd6c4d1dd6271a1422f626c4a0203ac50f6a424be
+-------------------
+info: Oct-23-2021 14:27:39: 	Broadcast Event:
+PlainTestString=prodTest
+MutationType=rot13
+MutatedString=cebqGrfg
+info: Oct-23-2021 14:27:39: 	DB Insert Success: 6174541bddc894ae27a5406e
+info: Oct-23-2021 14:27:39: 	Response: {"success":true,"mutatedString":"cebqGrfg"}
+info: Oct-23-2021 14:27:48: 	Raw Transaction: 
+{"nonce":"0xc","gasPrice":"0x45d964b800","gasLimit":"0x6575","to":"0x4031a0326b7AF0dA2c47B042971685E48d0f1DD5","value":"0x0","data":"0x02ef721c00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000000970726f645465737433000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000067368613235360000000000000000000000000000000000000000000000000000"}
+-------------------
+info: Oct-23-2021 14:27:49: 	Broadcast prodTest3: 0xf901280c8545d964b800826575944031a0326b7af0da2c47b042971685e48d0f1dd580b8c402ef721c00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000000970726f6454657374330000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000673686132353600000000000000000000000000000000000000000000000000002b9fc4f3fe09932daa2bfd3360642d2a09c3b0449a1122f2fa86d25becc88f9336a04746d6ce770e4e21cadb79bca2f0e520f4cd880673cc7ff1c726e1203a3920a6
+-------------------
+info: Oct-23-2021 14:27:55: 	Broadcast Event:
+PlainTestString=prodTest3
+MutationType=sha256
+MutatedString=cebqGrfg3
+info: Oct-23-2021 14:27:55: 	Broadcast Event:
+PlainTestString=prodTest3
+MutationType=sha256
+MutatedString=6b45880daa4ebd5af57520f41c15c651865536962cf451fac69e57cf12ac0b31
+info: Oct-23-2021 14:27:55: 	DB Insert Success: 6174542bddc894ae27a5406f
+info: Oct-23-2021 14:27:55: 	DB Insert Success: 6174542bddc894ae27a54070
+info: Oct-23-2021 14:27:55: 	Response: {"success":true,"mutatedString":"6b45880daa4ebd5af57520f41c15c651865536962cf451fac69e57cf12ac0b31"}
+info: Oct-23-2021 14:27:55: 	Raw Transaction: 
+{"nonce":"0xd","gasPrice":"0x45d964b800","gasLimit":"0x6575","to":"0x4031a0326b7AF0dA2c47B042971685E48d0f1DD5","value":"0x0","data":"0x02ef721c00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000000970726f645465737433000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000066369706865720000000000000000000000000000000000000000000000000000"}
+-------------------
+info: Oct-23-2021 14:27:55: 	Broadcast prodTest3: 0xf901290d8545d964b800826575944031a0326b7af0da2c47b042971685e48d0f1dd580b8c402ef721c00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000000970726f6454657374330000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000663697068657200000000000000000000000000000000000000000000000000002ba0bc7aa8e9410d455786e154d02d0612f74788c866687948fbbddaf5459f5e3e32a008bb0f21b55bbcec6a360964c62cd27451d09dbdc13127c356ce2d47a80263c1
+-------------------
+info: Oct-23-2021 14:28:10: 	Broadcast Event:
+PlainTestString=prodTest3
+MutationType=cipher
+MutatedString=6b45880daa4ebd5af57520f41c15c651865536962cf451fac69e57cf12ac0b31
+info: Oct-23-2021 14:28:10: 	DB Insert Success: 6174543addc894ae27a54071
+info: Oct-23-2021 14:28:10: 	Broadcast Event:
+PlainTestString=prodTest3
+MutationType=cipher
+MutatedString=cebqGrfg3
+info: Oct-23-2021 14:28:10: 	DB Insert Success: 6174543addc894ae27a54072
+info: Oct-23-2021 14:28:10: 	Broadcast Event:
+PlainTestString=prodTest3
+MutationType=cipher
+MutatedString=c9dcbfbfbd81bbd658f66abfcfc30065
+info: Oct-23-2021 14:28:10: 	DB Insert Success: 6174543addc894ae27a54073
+info: Oct-23-2021 14:28:10: 	Response: {"success":true,"mutatedString":"c9dcbfbfbd81bbd658f66abfcfc30065"}
+info: Oct-23-2021 14:32:10: 	Raw Transaction: 
+{"nonce":"0xe","gasPrice":"0x45d964b800","gasLimit":"0x6569","to":"0x4031a0326b7AF0dA2c47B042971685E48d0f1DD5","value":"0x0","data":"0x02ef721c000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000000000009726f7431335465737400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005726f743133000000000000000000000000000000000000000000000000000000"}
+-------------------
+info: Oct-23-2021 14:32:10: 	Broadcast rot13Test: 0xf901290e8545d964b800826569944031a0326b7af0da2c47b042971685e48d0f1dd580b8c402ef721c000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000000000009726f7431335465737400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005726f7431330000000000000000000000000000000000000000000000000000002ba09e047885afc88af6208ec1c662ae86473e7c98c65d5e6843e1dc65e68a603c91a07aaa0e5f4efba4feef8211e9b9bb228136f71bce98eb0b88a5fbd12de0a179bd
+-------------------
+info: Oct-23-2021 14:32:18: 	Raw Transaction: 
+{"nonce":"0xf","gasPrice":"0x45d964b800","gasLimit":"0x6581","to":"0x4031a0326b7AF0dA2c47B042971685E48d0f1DD5","value":"0x0","data":"0x02ef721c00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000000a736861323536546573740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000067368613235360000000000000000000000000000000000000000000000000000"}
+-------------------
+info: Oct-23-2021 14:32:18: 	Broadcast sha256Test: 0xf901290f8545d964b800826581944031a0326b7af0da2c47b042971685e48d0f1dd580b8c402ef721c00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000000a7368613235365465737400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000673686132353600000000000000000000000000000000000000000000000000002ba0bc21968b182e5781e989d1b4a4988f8a213b1c2d6f2b6a972446b0f174345557a0205d6b66654056c178978fef9a39a5f9330ab3095c64962ce997c0fcbdf3eaa3
+-------------------
+info: Oct-23-2021 14:32:24: 	Broadcast Event:
+PlainTestString=rot13Test
+MutationType=rot13
+MutatedString=c2a6950365c5bfc6ccada9e3fd78cdc3b0a53ce502b2a4cf4156ac3e6bd133ed
+info: Oct-23-2021 14:32:24: 	Broadcast Event:
+PlainTestString=sha256Test
+MutationType=sha256
+MutatedString=f7afd8c9a19b1fb8fbb3328c4d444513d88404d441601eece776b489c948f02b
+info: Oct-23-2021 14:32:24: 	DB Insert Success: 61745538ddc894ae27a54074
+info: Oct-23-2021 14:32:24: 	Response: {"success":true,"mutatedString":"c2a6950365c5bfc6ccada9e3fd78cdc3b0a53ce502b2a4cf4156ac3e6bd133ed"}
+info: Oct-23-2021 14:32:24: 	DB Insert Success: 61745538ddc894ae27a54075
+info: Oct-23-2021 14:32:25: 	Raw Transaction: 
+{"nonce":"0x10","gasPrice":"0x45d964b800","gasLimit":"0x6581","to":"0x4031a0326b7AF0dA2c47B042971685E48d0f1DD5","value":"0x0","data":"0x02ef721c00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000000a636970686572546573740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000066369706865720000000000000000000000000000000000000000000000000000"}
+-------------------
+info: Oct-23-2021 14:32:25: 	Broadcast cipherTest: 0xf90129108545d964b800826581944031a0326b7af0da2c47b042971685e48d0f1dd580b8c402ef721c00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000000a6369706865725465737400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000663697068657200000000000000000000000000000000000000000000000000002ca0f7a39fcff17805137ded31d02f8578053f01e8a74c3c1af99ee143ac68998a09a0382e14f1f91a3d0ba49baa7035109a083a9f24873c908d7b16306ae4ca3505d3
+-------------------
+info: Oct-23-2021 14:32:25: 	Broadcast Event:
+PlainTestString=rot13Test
+MutationType=rot13
+MutatedString=ebg13Grfg
+info: Oct-23-2021 14:32:25: 	Broadcast Event:
+PlainTestString=sha256Test
+MutationType=sha256
+MutatedString=fun256Grfg
+info: Oct-23-2021 14:32:25: 	DB Insert Success: 61745539ddc894ae27a54076
+info: Oct-23-2021 14:32:25: 	Response: {"success":true,"mutatedString":"ebg13Grfg"}
+info: Oct-23-2021 14:32:25: 	DB Insert Success: 61745539ddc894ae27a54077
+info: Oct-23-2021 14:32:25: 	Broadcast Event:
+PlainTestString=rot13Test
+MutationType=rot13
+MutatedString=c2a6950365c5bfc6ccada9e3fd78cdc3b0a53ce502b2a4cf4156ac3e6bd133ed
+info: Oct-23-2021 14:32:25: 	Broadcast Event:
+PlainTestString=sha256Test
+MutationType=sha256
+MutatedString=f7afd8c9a19b1fb8fbb3328c4d444513d88404d441601eece776b489c948f02b
+info: Oct-23-2021 14:32:25: 	DB Insert Success: 61745539ddc894ae27a54078
+info: Oct-23-2021 14:32:25: 	DB Insert Success: 61745539ddc894ae27a54079
+info: Oct-23-2021 14:32:25: 	Broadcast Event:
+PlainTestString=rot13Test
+MutationType=rot13
+MutatedString=ebg13Grfg
+info: Oct-23-2021 14:32:25: 	Broadcast Event:
+PlainTestString=sha256Test
+MutationType=sha256
+MutatedString=fun256Grfg
+info: Oct-23-2021 14:32:25: 	DB Insert Success: 61745539ddc894ae27a5407a
+info: Oct-23-2021 14:32:25: 	DB Insert Success: 61745539ddc894ae27a5407b
+info: Oct-23-2021 14:32:25: 	Broadcast Event:
+PlainTestString=rot13Test
+MutationType=rot13
+MutatedString=afd0b726f57fc33455766cca6952f3a8
+info: Oct-23-2021 14:32:25: 	Broadcast Event:
+PlainTestString=sha256Test
+MutationType=sha256
+MutatedString=0d1424bddb3a9b73b56be7bde7a95cb5
+info: Oct-23-2021 14:32:25: 	DB Insert Success: 61745539ddc894ae27a5407c
+info: Oct-23-2021 14:32:25: 	DB Insert Success: 61745539ddc894ae27a5407d
+info: Oct-23-2021 14:32:39: 	Broadcast Event:
+PlainTestString=cipherTest
+MutationType=cipher
+MutatedString=a08c2a776b6dddf1fe33f191a2bb776a704792889ed8e397b5e62150638e4933
+info: Oct-23-2021 14:32:39: 	DB Insert Success: 61745547ddc894ae27a5407e
+info: Oct-23-2021 14:32:40: 	Broadcast Event:
+PlainTestString=cipherTest
+MutationType=cipher
+MutatedString=0756e622ced866ccb326bad8a4aa9288
+info: Oct-23-2021 14:32:40: 	DB Insert Success: 61745548ddc894ae27a5407f
+info: Oct-23-2021 14:32:40: 	Response: {"success":true,"mutatedString":"0756e622ced866ccb326bad8a4aa9288"}
+info: Oct-23-2021 14:32:40: 	Broadcast Event:
+PlainTestString=cipherTest
+MutationType=cipher
+MutatedString=pvcureGrfg
+info: Oct-23-2021 14:32:40: 	DB Insert Success: 61745548ddc894ae27a54080
+info: Oct-23-2021 14:32:40: 	Broadcast Event:
+PlainTestString=cipherTest
+MutationType=cipher
+MutatedString=a08c2a776b6dddf1fe33f191a2bb776a704792889ed8e397b5e62150638e4933
+info: Oct-23-2021 14:32:40: 	DB Insert Success: 61745548ddc894ae27a54081
+info: Oct-23-2021 14:32:40: 	Broadcast Event:
+PlainTestString=cipherTest
+MutationType=cipher
+MutatedString=pvcureGrfg
+info: Oct-23-2021 14:32:40: 	DB Insert Success: 61745548ddc894ae27a54082
+info: Oct-23-2021 14:32:41: 	Broadcast Event:
+PlainTestString=cipherTest
+MutationType=cipher
+MutatedString=0756e622ced866ccb326bad8a4aa9288
+info: Oct-23-2021 14:32:41: 	DB Insert Success: 61745549ddc894ae27a54083
+info: Oct-23-2021 14:32:54: 	Broadcast Event:
+PlainTestString=cipherTest
+MutationType=cipher
+MutatedString=a08c2a776b6dddf1fe33f191a2bb776a704792889ed8e397b5e62150638e4933
+info: Oct-23-2021 14:32:54: 	DB Insert Success: 61745556ddc894ae27a54084
+info: Oct-23-2021 14:32:55: 	Broadcast Event:
+PlainTestString=cipherTest
+MutationType=cipher
+MutatedString=0756e622ced866ccb326bad8a4aa9288
+info: Oct-23-2021 14:32:55: 	DB Insert Success: 61745557ddc894ae27a54085
+info: Oct-23-2021 14:32:55: 	Broadcast Event:
+PlainTestString=cipherTest
+MutationType=cipher
+MutatedString=pvcureGrfg
+info: Oct-23-2021 14:32:55: 	DB Insert Success: 61745557ddc894ae27a54086
+info: Oct-23-2021 14:32:55: 	Broadcast Event:
+PlainTestString=cipherTest
+MutationType=cipher
+MutatedString=a08c2a776b6dddf1fe33f191a2bb776a704792889ed8e397b5e62150638e4933
+info: Oct-23-2021 14:32:55: 	DB Insert Success: 61745557ddc894ae27a54087
+info: Oct-23-2021 14:32:55: 	Broadcast Event:
+PlainTestString=cipherTest
+MutationType=cipher
+MutatedString=pvcureGrfg
+info: Oct-23-2021 14:32:55: 	DB Insert Success: 61745557ddc894ae27a54088
+info: Oct-23-2021 14:32:56: 	Broadcast Event:
+PlainTestString=cipherTest
+MutationType=cipher
+MutatedString=0756e622ced866ccb326bad8a4aa9288
+info: Oct-23-2021 14:32:56: 	DB Insert Success: 61745558ddc894ae27a54089

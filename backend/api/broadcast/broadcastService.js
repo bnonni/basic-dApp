@@ -1,7 +1,7 @@
 const { common } = require('../../utils/transaction');
 const { Transaction } = require('@ethereumjs/tx');
 const { web3Eth, toHex } = require('../../utils/web3-connect');
-const { sha256 } = require('../../utils/crypto');
+const { cipher, sha256, rot13 } = require('../../utils/crypto');
 const { stringMutations } = require('../../db/collection');
 const STRING_DATA_CONTRACT_ABI =
     require('../../../contracts/artifacts/StringBroadcaster_metadata.json')
@@ -12,14 +12,8 @@ const STRING_DATA_CONTRACT = new web3Eth.Contract(
     STRING_DATA_CONTRACT_ADDRESS
 );
 
-const stringify = (data) => {
-    return JSON.stringify(data);
-};
-
-const filepath = __filename.split('/');
-const filename = filepath[filepath.length - 1];
-const line = require('current-line');
-const e = require('cors');
+const stringify = (data) => { return JSON.stringify(data); };
+const debug = require('../../utils/debug');
 
 const broadcastString = async (stringData, mutationType) => {
     try {
@@ -27,7 +21,7 @@ const broadcastString = async (stringData, mutationType) => {
         const privateKey = Buffer.from(process.env.PRIVATE_KEY, 'hex');
 
         const contractData = STRING_DATA_CONTRACT.methods
-            .broadcastString(stringData)
+            .broadcastString(stringData, mutationType)
             .encodeABI();
 
         const nonce = await web3Eth.getTransactionCount(publicKey, 'pending');
@@ -48,7 +42,7 @@ const broadcastString = async (stringData, mutationType) => {
         };
 
         const stringifyTxn = stringify(rawTxn);
-        console.log(`Raw Transaction: \n${stringifyTxn}\n-------------------`);
+        debug.info(`Raw Transaction: \n${stringifyTxn}\n-------------------`);
 
         const readyTX = toHex(
             Transaction.fromTxData(rawTxn, { common })
@@ -56,44 +50,58 @@ const broadcastString = async (stringData, mutationType) => {
                 .serialize()
         );
 
-        console.log(`Broadcast ${stringData}: ${readyTX}\n-------------------`);
+        debug.info(`Broadcast ${stringData}: ${readyTX}\n-------------------`);
 
         web3Eth.sendSignedTransaction(readyTX);
 
-        STRING_DATA_CONTRACT.events
-            .Broadcast()
-            .on('data', async (event) => {
-                const response = {
-                    stringData: event.returnValues.stringData,
-                    mutationType: event.returnValues.mutationType
-                };
-                const mutatedString = await crypto[response.mutationType].call()
-                // await sha256(response.stringData);
-                let m1 = `PlainTestString=${response.stringData}`,
-                    m2 = `MutationType=${response.mutationType}`,
-                    m3 = `MutatedString=${mutatedString}`;
-                console.log(`Broadcast Event:${m1}${m2}${m3}`);
-                const dbTxn = await stringMutations.insertOne({
-                    plainTextString: response.stringData,
-                    mutationType: response.mutationType,
-                    mutatedString: mutatedString,
-                });
-                if(dbTxn.acknowledged){
-                    console.log(`DB Insert Success: ${dbTxn.insertedId}`)
-                }else{
-                    console.log(`DB Insert Fail: ${dbTxn}`)
-                }
-            })
-            .on('error', (error, receipt) => {
-                const fileInfo = `${filename}:${line.get().line}`;
-                console.error(`${fileInfo} - ${error.message}`);
-                console.error(`Broadcast Event Error: ${stringify(error)}`);
-                console.error(`Broadcast Event Error Receipt: ${stringify(receipt)}`);
-            });
+        try {
+            return await new Promise((resolve) => { 
+            STRING_DATA_CONTRACT.events
+                .Broadcast()
+                .on('data', async (event) => {
+                    const response = {
+                        stringData: event.returnValues.stringData,
+                        mutationType: event.returnValues.mutationType,
+                    };
+                    const stringData = response.stringData;
+                    let mutatedString;
+                    if(mutationType === 'rot13') mutatedString = await rot13(stringData);
+                    else if(mutationType === 'sha256') mutatedString = await sha256(stringData);
+                    else mutatedString = await cipher(stringData)
+                    
 
-        return { success: true, message: 'Your Transaction Has Been Broadcast!' };
+                    let m1 = `PlainTestString=${response.stringData}\n`,
+                        m2 = `MutationType=${response.mutationType}\n`,
+                        m3 = `MutatedString=${mutatedString}`;
+                    debug.info(`Broadcast Event:\n${m1}${m2}${m3}`);
+                    const dbTxn = await stringMutations.insertOne({
+                        plainTextString: response.stringData,
+                        mutationType: response.mutationType,
+                        mutatedString: mutatedString,
+                    });
+                    if (dbTxn.acknowledged) {
+                        debug.info(`DB Insert Success: ${dbTxn.insertedId}`);
+                    } else {
+                        debug.info(`DB Insert Fail: ${dbTxn}`);
+                    }
+                    resolve({ success: true, mutatedString }); 
+                })
+                .on('error', (error, receipt) => {
+                    const fileInfo = `${filename}:${line.get().line}`;
+                    debug.error(`${fileInfo} - ${error.message}`);
+                    debug.error(`Broadcast Event Error: ${stringify(error)}`);
+                    debug.error(
+                        `Broadcast Event Error Receipt: ${stringify(receipt)}`
+                    );
+                    resolve({ success: false, error: error.message });
+                });
+            });
+        } catch (error) {
+            debug.error(error.stack);
+            throw new Error(error);
+        }
     } catch (error) {
-        console.error(error.stack);
+        debug.error(error.stack);
         throw new Error(error);
     }
 };

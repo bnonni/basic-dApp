@@ -2,7 +2,9 @@ const Web3 = require('web3');
 const { ws, http } = require('./web3-options');
 const RPC_URL = process.env.RPC_URL;
 const provider = new Web3.providers.WebsocketProvider(RPC_URL, ws);
-console.log(`Connected to RPC ${RPC_URL}`);
+const debug = require('./debug');
+
+debug.info(`Connected to RPC ${RPC_URL}`);
 
 const web3 = new Web3(provider);
 const web3Eth = web3.eth;

@@ -6,10 +6,11 @@ const cors = require('cors');
 const morgan = require('morgan');
 const express = require('express');
 const app = express();
+const debug = require('./utils/debug');
 
 const initAPI = async () => {
     const DB_NAME = await initMongo();
-    console.info(`Connected to Mongo Atlas DB ${DB_NAME}`);
+    debug.info(`Connected to Mongo Atlas DB ${DB_NAME}`);
 
     app.use(morgan('dev'));
     app.use(express.json({ limit: '50mb' }));
